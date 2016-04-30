@@ -1,0 +1,26 @@
+**/.DS_Store
+.DS_Store
+
+# vim/emacs temp files
+*.swp
+*.swo
+*~
+*.log*
+
+# Excluding IDE files
+**/*.iml
+*.iml
+**/*.ipr
+*.ipr
+**/*.iws
+*.iws
+**/*.ids
+*.ids
+**/.idea/
+.idea
+**/.classpath
+.classpath
+**/.project
+.project
+**/.settings
+.settings
