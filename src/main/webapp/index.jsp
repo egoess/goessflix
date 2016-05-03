@@ -5,6 +5,6 @@
     <title>Goessflix Index</title>
 </head>
 <body>
-<h3>Hi, I'm an index!</h3>
+<h3>Hi, I'm an index! woohoo</h3>
 </body>
 </html>
