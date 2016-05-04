@@ -14,8 +14,8 @@ jar {
 }
 
 war {
-    baseName = 'goessflix'
-    version = '0.0.0.1'
+    baseName = 'HelloWeb'
+//    version = '0.0.0.1'
 }
 repositories {
     mavenCentral()

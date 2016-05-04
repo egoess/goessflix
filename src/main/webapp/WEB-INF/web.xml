@@ -15,14 +15,14 @@
 
     <servlet-mapping>
         <servlet-name>HelloWeb</servlet-name>
-        <url-pattern>/*</url-pattern>
+        <url-pattern>/goessflix/*</url-pattern>
     </servlet-mapping>
 
     <!--- DispatcherServlet definition goes here -->
 
-    <welcome-file-list>
-        <welcome-file>index.jsp</welcome-file>
-    </welcome-file-list>
+    <!--<welcome-file-list>-->
+        <!--<welcome-file>index.jsp</welcome-file>-->
+    <!--</welcome-file-list>-->
 
     <!--<context-param>-->
         <!--<param-name>contextConfigLocation</param-name>-->
