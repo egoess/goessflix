@@ -1,4 +1,4 @@
-package net.apoplectic.goessflix.hello;
+package net.apoplectic.goessflix.domain;
 
 public class Greeting {
 
