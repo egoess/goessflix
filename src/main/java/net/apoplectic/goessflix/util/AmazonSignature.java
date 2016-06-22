@@ -15,8 +15,8 @@ public class AmazonSignature {
     private static final String REQUEST_URI = "/onca/xml";
 
     private String endpoint = "webservices.amazon.com"; // must be lowercase
-    private String awsAccessKeyId = "AKIAIHPCRYG5CYJQUI2Q";
-    private String awsSecretKey = "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";
+    private String awsAccessKeyId = "";
+    private String awsSecretKey = "";
 
     private SecretKeySpec secretKeySpec = null;
     private Mac mac = null;
