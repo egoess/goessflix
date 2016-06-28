@@ -6,14 +6,13 @@ import org.apache.http.client.methods.HttpGet;
 import org.apache.http.impl.client.CloseableHttpClient;
 import org.apache.http.impl.client.HttpClients;
 import org.apache.http.util.EntityUtils;
-import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
 import org.springframework.stereotype.Service;
 
 import java.io.IOException;
 
 @Service
 //@EnableAutoConfiguration
-public class UpcServiceImpl {//implements UpcService {
+public class UpcServiceUpcItemDBImpl {//implements UpcService {
 
     //upcitemdb.com (free trial = 100 look ups/day, starts at $99/mon
         private String upcLookupUrl = "https://api.upcitemdb.com/prod/trial/lookup?upc=";

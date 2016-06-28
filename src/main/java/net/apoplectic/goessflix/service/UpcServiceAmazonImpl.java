@@ -7,7 +7,6 @@ import org.apache.http.client.methods.HttpGet;
 import org.apache.http.impl.client.CloseableHttpClient;
 import org.apache.http.impl.client.HttpClients;
 import org.apache.http.util.EntityUtils;
-import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
 import org.springframework.stereotype.Service;
 
 import java.io.IOException;
@@ -15,10 +14,10 @@ import java.util.HashMap;
 import java.util.Map;
 
 @Service
-@EnableAutoConfiguration
-public class UpcServiceAmazonImpl implements UpcService {
+//@EnableAutoConfiguration
+public class UpcServiceAmazonImpl {//implements UpcService {
 
-    @Override
+    //@Override
     public String getUpcJson(String upc) {
 
         Map<String, String> params = new HashMap<String, String>();
